@@ -1,4 +1,5 @@
-.
+./product/app/PowerOffAlarm/PowerOffAlarm.apk
+./system_ext/app/QtiTelephonyService/QtiTelephonyService.apk
 ./system_ext/etc/permissions/wfd-system-ext-privapp-permissions-qti.xml
 ./system_ext/etc/permissions/qti_permissions.xml
 ./system_ext/etc/permissions/qcrilhook.xml
@@ -12,6 +13,18 @@
 ./system_ext/etc/init/wfdservice.rc
 ./system_ext/etc/init/dpmd.rc
 ./system_ext/etc/seccomp_policy/wfdservice.policy
+./system_ext/media/audio/ui/popup_chilun_up.ogg
+./system_ext/media/audio/ui/popup_muqin_up.ogg
+./system_ext/media/audio/ui/popup_jijia_up.ogg
+./system_ext/media/audio/ui/popup_jijia_down.ogg
+./system_ext/media/audio/ui/popup_cangmen_up.ogg
+./system_ext/media/audio/ui/popup_chilun_down.ogg
+./system_ext/media/audio/ui/popup_yingyan_up.ogg
+./system_ext/media/audio/ui/popup_mofa_up.ogg
+./system_ext/media/audio/ui/popup_yingyan_down.ogg
+./system_ext/media/audio/ui/popup_mofa_down.ogg
+./system_ext/media/audio/ui/popup_muqin_down.ogg
+./system_ext/media/audio/ui/popup_cangmen_down.ogg
 ./system_ext/lib64/libwfddisplayconfig.so
 ./system_ext/lib64/com.qualcomm.qti.dpm.api@1.0.so
 ./system_ext/lib64/libwfduibcsrc.so
@@ -71,11 +84,20 @@
 ./system_ext/lib/libmmosal.so
 ./system_ext/lib/libmmparser_lite.so
 ./system_ext/lib/libwfduibcsrcinterface.so
+./system_ext/priv-app/ims/ims.apk
+./system_ext/priv-app/WfdService/WfdService.apk
+./system_ext/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk
 ./etc/permissions/privapp-permissions-qti.xml
 ./etc/sysconfig/qti_whitelist.xml
 ./lists.txt
 ./framework/WfdCommon.jar
 ./framework/tcmclient.jar
+./vendor/app/IWlanService/IWlanService.apk
+./vendor/app/CneApp/CneApp.apk
+./vendor/app/SoterService/SoterService.apk
+./vendor/app/TimeService/TimeService.apk
+./vendor/app/com.qualcomm.qti.gpudrivers.kona.api30
+./vendor/app/com.qualcomm.qti.gpudrivers.kona.api30/com.qualcomm.qti.gpudrivers.kona.api30.apk
 ./vendor/etc/charger_fstab.qti
 ./vendor/etc/gps.conf
 ./vendor/etc/lowi.conf
@@ -114,6 +136,7 @@
 ./vendor/etc/libnfc-nxp.conf
 ./vendor/etc/xtwifi.conf
 ./vendor/etc/izat.conf
+./vendor/etc/step_motor/mi_camera_config.xml
 ./vendor/etc/vintf/manifest/android.hardware.gnss@2.1-service-qti.xml
 ./vendor/etc/vintf/manifest/vendor.qti.gnss@4.0-service.xml
 ./vendor/etc/vintf/manifest/manifest_vendor.xiaomi.hardware.mlipay.xml
@@ -135,6 +158,7 @@
 ./vendor/etc/init/vendor.qti.adsprpc-service.rc
 ./vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc
 ./vendor/etc/init/vendor.qti.rmt_storage.rc
+./vendor/etc/init/vendor.xiaomi.hardware.touchfeature@1.0-service.rc
 ./vendor/etc/init/android.hardware.drm@1.1-service.wfdhdcp.rc
 ./vendor/etc/init/imsqmidaemon.rc
 ./vendor/etc/init/wfdvndservice.rc
@@ -189,6 +213,7 @@
 ./vendor/etc/default-permissions/com.qualcomm.qti.cne.xml
 ./vendor/bin/hw/android.hardware.gatekeeper@1.0-service-qti
 ./vendor/bin/hw/vendor.qti.hardware.alarm@1.0-service
+./vendor/bin/hw/vendor.xiaomi.hardware.touchfeature@1.0-service
 ./vendor/bin/hw/vendor.qti.hardware.soter@1.0-service
 ./vendor/bin/hw/vendor.qti.hardware.qccvndhal@1.0-service
 ./vendor/bin/hw/vendor.qti.hardware.qseecom@1.0-service
@@ -213,6 +238,7 @@
 ./vendor/lib64/libdisp-aba.so
 ./vendor/lib64/vendor.display.color@1.2.so
 ./vendor/lib64/se_nq_extn_client.so
+./vendor/lib64/vendor.display.postproc@1.0.so
 ./vendor/lib64/com.qualcomm.qti.dpm.api@1.0.so
 ./vendor/lib64/lib-imsrcs-v2.so
 ./vendor/lib64/vendor.qti.hardware.soter@1.0.so
@@ -283,6 +309,7 @@
 ./vendor/lib64/hw/vendor.qti.hardware.qseecom@1.0-impl.so
 ./vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so
 ./vendor/lib64/hw/vendor.qti.hardware.qccvndhal@1.0-impl.so
+./vendor/lib64/hw/vendor.xiaomi.hardware.touchfeature@1.0-impl.so
 ./vendor/lib64/hw/android.hardware.gatekeeper@1.0-impl-qti.so
 ./vendor/lib64/hw/vendor.qti.esepowermanager@1.1-impl.so
 ./vendor/lib64/hw/vendor.qti.hardware.btconfigstore@1.0-impl.so
